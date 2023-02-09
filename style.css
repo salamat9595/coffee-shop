@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background: #1C1814;
+}
+body{
+    background: #14110E;
+}
+.custom-container{
+    width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.navbar-nav .nav-link.active{
+    color: #C99E71;
+}
+.about{
+    background-image: url(./images/about-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+}
+h1{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+p,.about button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+}
+.about button{
+    width: 202px;
+    height: 70px;
+    background: #C99E71;
+    border: none;
+}
+.play-btn{
+    padding-bottom: 90px;
+}
+.flavour-cards>div{
+    width: 366px;
+}
