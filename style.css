@@ -6,13 +6,19 @@
     background: #1C1814;
 }
 body{
-    background: #14110E;
+    background:  #14110E;
+}
+button{
+    background: #C99E71;
 }
 .custom-container{
     width: 992px;
     margin: 0 auto;
 }
-.nav-link{
+.nav-link,
+.btn-product,
+.product-btn-bootom,
+.machine-btn{
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -59,4 +65,71 @@ p,.about button{
 .history-description{
     background: #1C1814;
 }
-h2
+h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C99E71;
+}
+h4{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.description-text{
+    font-size: 16px;
+}
+.about-product{
+    background: #121315;
+    width: 366px;
+    height: 579px;
+}
+.btn-product{
+    width: 169px;
+    height: 48px;
+}
+.product-span,
+.product-span-first{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #C99E71;
+}
+.product-span-first{
+    color: #FFFFFF;
+}
+.product-btn-bootom{
+    width: 252px;
+    height: 62px;
+    font-weight: 700;
+}
+.machine-btn{
+    width: 215px;
+    height: 62px;
+    font-weight: 700;
+}
+.machine>div{
+    background: #1C1814;
+    height: 580px;
+}
+.description-text_margin{
+    margin: 40px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
+    width: 90%;
+}
+.menu__cards img{
+    width: 72px;
+}
